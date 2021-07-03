@@ -19,13 +19,13 @@ class Spacer extends _react.Component {
     this.state = {};
 
     if (props.x) {
-      this.state.style.width = "".concat(props.x);
+      this.state.style.width = props.x;
     } else {
       this.state.style.width = "0";
     }
 
     if (props.y) {
-      this.state.style.height = "".concat(props.y);
+      this.state.style.height = props.y;
     } else {
       this.state.style.height = "0";
     }
