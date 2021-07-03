@@ -1,7 +1,6 @@
 {
-  "name": "react-spacer",
+  "name": "@tom-ricci/react-spacer",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -35,7 +34,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "A simple spacer component for React.",
   "main": "index.js",
   "devDependencies": {},
   "keywords": [
@@ -43,5 +42,13 @@
     "spacer"
   ],
   "author": "Thomas Ricci",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-ricci/react-spacer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tom-ricci/react-spacer/issues"
+  },
+  "homepage": "https://github.com/tom-ricci/react-spacer#readme"
 }
