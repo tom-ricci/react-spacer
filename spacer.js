@@ -15,9 +15,7 @@ export default class Spacer extends Component {
 
   render() {
     return (
-      <React.Fragment>
-        <div style={this.state.style}/>
-      </React.Fragment>
+      <div style={this.state.style}/>
     );
   }
 }
