@@ -11,4 +11,4 @@ Then, add the spacer:
 ```html
 <Spacer x={distance} y={distance}/>
 ```
-The distance should be passed as an integer and will render as pixels.
+The distance should be passed as a string.

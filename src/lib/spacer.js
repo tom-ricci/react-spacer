@@ -5,12 +5,12 @@ export default class Spacer extends Component {
     super(props);
     this.state = {};
     if(props.x) {
-      this.state.style.width = `${props.x}`
+      this.state.style.width = props.x;
     }else{
       this.state.style.width = "0";
     }
     if(props.y) {
-      this.state.style.height = `${props.y}`
+      this.state.style.height = props.y;
     }else{
       this.state.style.height = "0";
     }
