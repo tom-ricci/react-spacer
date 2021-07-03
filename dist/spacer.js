@@ -16,7 +16,9 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 class Spacer extends _react.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      style: {}
+    };
 
     if (props.x) {
       this.state.style.width = props.x;
