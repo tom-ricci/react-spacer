@@ -1,0 +1,13 @@
+/.idea
+
+/build
+
+/node_modules
+
+/public
+
+/src
+
+/babel.config.json
+
+/react-spacer.iml

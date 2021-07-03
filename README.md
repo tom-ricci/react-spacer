@@ -8,7 +8,7 @@ X-Axis:
 <Spacer x={distanceInPixels}/>
 ```
 
-Y-Axis: 
+Y-Axis:
 ```react
 <Spacer y={distanceInPixels}/>
 ```
