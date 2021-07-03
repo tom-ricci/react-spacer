@@ -3,7 +3,9 @@ import React, {Component} from "react";
 export default class Spacer extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      style: {}
+    };
     if(props.x) {
       this.state.style.width = props.x;
     }else{
