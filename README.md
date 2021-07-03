@@ -12,3 +12,6 @@ Y-Axis:
 ```react
 <Spacer y={distanceInPixels}/>
 ```
+
+### Note
+This is my first react component package and I have no idea whats going on, it barely works
