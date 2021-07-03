@@ -3,12 +3,12 @@
 
 ### Usage
 
-X-Axis:
-```react
-<Spacer x={distanceInPixels}/>
+First, import the package:
+```js
+import Spacer from "@tom-ricci/react-spacer/dist/spacer.js";
 ```
-
-Y-Axis:
-```react
-<Spacer y={distanceInPixels}/>
+Then, add the spacer:
+```html
+<Spacer x={distance} y={distance}/>
 ```
+The distance should be passed as an integer and will render as pixels.
