@@ -1,6 +1,6 @@
 {
   "name": "@tom-ricci/react-spacer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
