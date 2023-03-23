@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "k",
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}

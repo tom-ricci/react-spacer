@@ -1,14 +1,11 @@
-# react-spacer
-## A simple spacer component for React.
-
+# spacer <sup>v4</sup>
+A super-simple spacer component for React.
 ### Usage
-
 First, import the package:
-```js
-import Spacer from "@tom-ricci/react-spacer/dist/spacer.js";
+```tsx
+import Spacer from "@tom-ricci/react-spacer";
 ```
-Then, add the spacer:
-```html
-<Spacer x={distance} y={distance}/>
+Then, specify the width and/or height of the spacer as a valid <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length">CSS length</a>:
+```tsx
+<Spacer x={"10rem"} y={"50px"}/>
 ```
-The distance should be passed as a string.
